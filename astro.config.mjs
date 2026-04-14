@@ -2,19 +2,18 @@ import { defineConfig } from 'astro/config';
 import lluviame from 'astro-theme-lluviame';
 
 export default defineConfig({
-  site: 'https://your-domain.com',
+  site: 'https://lluvia.me',
   integrations: [
     lluviame({
-      title: '你的站点名',
-      description: '你的站点描述',
+      title: 'Lluviame',
+      description: 'It\'s always rainy ...',
       lang: 'zh-CN',
       ogImage: '/og-image.png',
       home: {
-        headline: '你好，我是 ...',
-        intro: '这里写首页简介。',
+        headline: 'Amelia です',
+        intro: 'Binary security beginner, traditional algorithm enthusiast, メランコリー·しょうじょ',
         links: [
-          { text: 'GitHub', href: 'https://github.com/your-name' },
-          { text: 'X', href: 'https://x.com/your-name' },
+          { text: 'GitHub', href: 'https://github.com/yuXI-fuwafuwa' },
         ],
       },
     }),
