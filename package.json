@@ -13,6 +13,6 @@
   },
   "dependencies": {
     "astro": "^6.1.6",
-    "astro-theme-lluviame": "^1.0.2"
+    "astro-theme-lluviame": "^1.0.3"
   }
 }
